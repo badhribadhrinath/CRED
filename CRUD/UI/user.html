@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+    var loginUrl = "http://localhost:8090/login.html";
+    window.onload=function(){
+    console.log("Session id :",localStorage.getItem('sessionId'));
+    let isSessionAvilable=localStorage.getItem('sessionId');
+    console.log("Session id", localStorage.getItem('sessionId'));
+    if(!isSessionAvilable){
+        // window.location.replace("C:/Users/badhrinarayanan/Desktop/JS_Learning/login.html");
+      //  window.location.replace(loginUrl);
+}
+}
+</script>
+    <title>User Page</title>
+</head>
+<body align="center">
+    <h1>Hi Welcome to Users Page</h1><br>
+    <input type="submit" id="logout" onclick="logoff()" value="Log Out">
+</body>
+
+     <script> 
+        function logoff() { 
+            console.log("Entered into log out");
+        window.location.replace(loginUrl);
+        } 
+    </script> 
+</html>

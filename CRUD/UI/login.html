@@ -1,0 +1,126 @@
+<Html>
+
+<head>
+
+  <link rel="icon" type="image/x-icon" href="/Icons/user.png">
+  <!-- <script src="login.js"></script> -->
+  <!-- <script src="captcha.js"></script> -->
+  <!-- CSS StyleSheet -->
+  <link rel="stylesheet" href="loginstyle.css">
+  <link rel="stylesheet" href="captcha.css">
+  <!-- CSS StyleSheet -->
+
+  <!-- cdn -->
+  <!-- CSS StyleSheet Button icon library -->
+  <link rel="stylesheet" href="fonts/font-awesome.css"><!-- CSS StyleSheet Button icon library -->
+
+
+  <!-- cdn -->
+  <title>Login Page </title>
+  <style>
+    body {
+      background-image: url('BG.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+    select {
+      width: 150px;
+      margin: 5px;
+      margin-left: 118px;
+    }
+
+    select:focus {
+      min-width: 200px;
+      width: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+          
+          <!-- <form action="#" class="login_form" onsubmit="handleSubmit(event)"> -->
+          <form class="login_form">
+                <div>
+                  <i class="fa fa-user"></i>  <label  class="required" for="username">UserName</label>
+                  <input class="rightBoxes" required  type="text" id="username" name="username" placeholder= "Username">
+                </div><br><br>
+              
+                <div>
+                  <i class="fa fa-lock"></i>  <label  class="required" for="password">Password</label>
+                  <input class="rightBoxes" required  type="password" id="password" name="password" placeholder= "Password">
+                </div><br><br>
+
+                    <i class="fa fa-user-circle"></i><label class="required">
+                    Roles </label class="required">    
+                    <select class="loginRole" id="role" name="role">
+                        <option value="admin">Admin</option>
+                        <option value="user" >User</option>
+                    </select>  <br><br>
+                      <div id="error"><span id="errormessage"></span></div>                 
+                          
+                      <div id="captcha" class="form_div">
+                        <div class="preview"></div>
+                        <label class="form_label_captcha required" >Enter Captcha</label>    
+                        <div class="captcha_form"> 
+                            <input type="text" id="captcha_form" required  class="form_input_captcha" placeholder=" ">             
+                            <button class="captcha_refersh">
+                              <i class="fa fa-refresh"></i>
+                            </button>
+                        </div>
+                      </div>
+                          
+                    <br>
+                    <button type="submit" class="form_button" style="margin-left: 30%; font-size:15px;color:black">Login</button>
+          </form>
+
+        </div>
+
+  <!-- <div class="warapper">
+    <div id="usernameField">
+        <div class="formInputFieldLable"><i class="fa fa-user"></i> <label class="required" for="username">UserName</label></div>
+        <div class ="formInputField"><input class="rightBoxes" required type="text" id="username" name="username" placeholder="Username"></div>
+    </div>
+
+    <div id="passwordField">
+        <div class="formInputFieldLable"><i class="fa fa-lock"></i> <label class="required" for="password">Password</label></div>
+        <div class ="formInputField"> <input class="rightBoxes" required type="password" id="password" name="password" placeholder="Password">
+      </div>
+    </div>
+
+    <div id="roleField">
+          <div class="formInputFieldLable"> <i class="fa fa-user-circle"></i> <label class="required">Roles</label class="required"> </div>
+          <div class ="formInputField"> <select class="loginRole" id="role" name="role">
+              <option value="admin">Admin</option>
+              <option value="user">User</option>
+            </select>
+          </div>
+          <div id="error"><span id="errormessage"></span></div>
+    </div>
+    <div id="captchaField">
+        <div id="captcha" class="form_div">
+            <div class="preview"></div>
+            <div class="formInputFieldLable"> <label class="form_label_captcha required">Enter Captcha</label></div>
+            <div class="captcha_form">
+              <input type="text" id="captcha_form" required class="form_input_captcha" placeholder=" ">
+            </div>
+            <div>
+              <button class="captcha_refersh">
+                <i class="fa fa-refresh"></i>
+              </button>
+            </div>
+        </div>
+    </div>
+   
+    <div id="submitField">
+      <button class="form_button" type="submit" style="margin-left: 30%; font-size:15px;color:black">Login</button>
+    </div> -->
+
+  </div>
+  <script type="text/javascript" src="captcha.js"></script>
+  <script type="text/javascript" src="login.js"></script>
+</body>
+
+</html>

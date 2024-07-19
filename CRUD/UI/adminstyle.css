@@ -1,0 +1,137 @@
+/* adminstyle.css */
+
+
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+h2 {
+    color: rgb(49, 82, 226);
+    text-align: center;
+    font-size: medium;
+    font-style: italic;
+    
+}
+
+.form-group{
+    background-color: transparent;
+    backface-visibility: visible;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    }
+
+.required ::after {
+    content:" *";
+    color: red;
+    }
+
+ .iconbtn {
+    font-size:25px;
+    color:black;
+    background-color: transparent;
+    backface-visibility: visible;
+    border-block-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+/* <---Modal --> */
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+
+/* The Close Button */
+/* Close-(X) Mark in Update Modal */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* The Close Button */
+
+/* <---Modal --> */
+
+/* Initially hide the form */
+
+
+
+#registrationForm {
+    display: none;
+    width: 300px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.asterisk_input::after {
+content:" *"; 
+color: #e32;
+position: absolute; 
+margin: 0px 0px 0px -20px; 
+font-size: medium; 
+padding: 0 5px 0 0; }
+
+.error {
+    color: red;
+    font-size: 12px;
+    font-style: normal;
+}
+
+/* Initially hide the form */

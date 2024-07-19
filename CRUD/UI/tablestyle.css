@@ -1,0 +1,65 @@
+/*TABLE*/
+
+/*<-- Table Pagination CSS -->*/
+body{
+
+    background-color: #eee; 
+}
+
+/* table th , table td{
+    text-align: center;
+} */
+.form-control{
+    text-align: center;
+    width: 58%;
+    margin-bottom: 5    px;
+}
+
+.pagination li:hover{
+    cursor: pointer;
+    
+}
+.pagination{
+
+    text-align: center;
+}
+/*<-- Table Pagination CSS -->*/
+
+/*<-- Table CSS -->*/
+        /* General table styles */
+        table {
+            width: 50%;
+            /* Make the table fill the container */
+            border-collapse: collapse;
+            /* Collapse borders */
+            margin-bottom: 10px;
+            /* Some margin for spacing */
+        }
+
+        /* Table header styles */
+        th {
+            background-color: #f3efef;
+            /* Light gray background */
+            padding: 10px;
+            /* Padding inside header cells */
+            text-align: center;
+            /* Align text to the left within header cells */
+            border: 1px solid #ddd;
+            /* Light gray border */
+        }
+
+        /* Table body styles */
+        td {
+            padding: 10px;
+            text-align: center;
+           
+            /* Padding inside regular cells */
+            border: 1px solid #ddd;
+            /* Light gray border */
+        }
+        table,
+        td {
+            border: 1px solid black;
+        }
+/*<-- Table CSS -->*/
+

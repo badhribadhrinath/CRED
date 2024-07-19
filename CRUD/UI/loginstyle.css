@@ -1,0 +1,106 @@
+
+.outer {
+    margin: 50px;
+  }
+  
+  .button {
+    
+    color: rgb(119, 200, 224);
+    border-radius: 3px;
+    width: 100px;
+    height: 30px;
+    display: block;
+  
+    background: linear-gradient(to right, rgba(165, 238, 243, 0) 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+  }
+  
+  .button:hover {
+    background-position: left bottom;
+  }
+  
+  .text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px; 
+    margin-left: 30%;
+    
+    color: rgb(5, 5, 5);  
+  
+    transition: all .6s ease-out;
+    display: block;
+  }
+  
+  .text:hover {
+    border: 1px solid black;
+  }
+
+  .login_form{
+    justify-content: center;
+  }
+
+
+#error{
+    visibility: none;
+    color: red;
+    font-style: oblique;
+}
+.wrapper {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+}
+.required:after {
+content:" *";
+color: red;
+}
+.rightBoxes {
+display: inline-block;
+margin-left: 100px;
+width: 150px;
+align-content: center;
+}
+
+.hide {
+display: none;
+}
+
+.loginHover:hover + .hide {
+display: block;
+color: green;
+font-size:35px;
+}
+
+/* hover */
+.tooltip {
+position: relative;
+display: inline-block;
+}
+
+.tooltip .tooltiptext {
+visibility: hidden;
+width: 150px;
+/* background-color: black; */
+color: #0bc904f1;
+
+/* Position the tooltip */
+position:absolute;
+z-index: auto;
+}
+
+.tooltip:hover .tooltiptext {
+visibility: visible;
+}
+
+/*Update*/
+/* #usernameField{
+  display:grid;
+  grid-template-columns: 30% 70%;  
+}
+
+#usernameField .formInputField{
+
+} */

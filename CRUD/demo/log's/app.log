@@ -1,0 +1,166 @@
+2024-07-19T17:49:05.514+0530 INFO Logger involked...
+2024-07-19T17:49:05.514+0530 INFO Login Controller
+2024-07-19T17:49:05.954+0530 INFO Login Authentication Passed...
+2024-07-19T17:49:27.667+0530 INFO GetAllUsers Controller
+2024-07-19T17:49:41.520+0530 INFO Logger involked...
+2024-07-19T17:49:41.520+0530 INFO Login Controller
+2024-07-19T17:49:41.588+0530 INFO Login Authentication Passed...
+2024-07-19T17:49:41.994+0530 INFO GetAllUsers Controller
+2024-07-19T17:51:00.415+0530 INFO Logger involked...
+2024-07-19T17:51:00.415+0530 INFO Login Controller
+2024-07-19T17:51:00.430+0530 INFO Login Authentication Passed...
+2024-07-19T17:51:00.963+0530 INFO GetAllUsers Controller
+2024-07-19T18:08:51.867+0530 INFO Logger involked...
+2024-07-19T18:08:51.867+0530 INFO Login Controller
+2024-07-19T18:08:51.936+0530 INFO Login Authentication Passed...
+2024-07-19T18:08:52.623+0530 INFO GetAllUsers Controller
+2024-07-19T18:25:24.607+0530 INFO Logger involked...
+2024-07-19T18:25:24.619+0530 INFO Login Controller
+2024-07-19T18:25:24.801+0530 INFO Login Authentication Passed...
+2024-07-19T18:25:25.760+0530 INFO GetAllUsers Controller
+2024-07-19T18:26:41.849+0530 INFO Logger involked...
+2024-07-19T18:26:41.849+0530 INFO Login Controller
+2024-07-19T18:26:41.900+0530 INFO Login Authentication Passed...
+2024-07-19T18:26:43.187+0530 INFO GetAllUsers Controller
+2024-07-19T18:26:57.559+0530 INFO GetAllUsers Controller
+2024-07-19T18:30:39.020+0530 INFO Logger involked...
+2024-07-19T18:30:39.020+0530 INFO Login Controller
+2024-07-19T18:30:45.685+0530 INFO Logger involked...
+2024-07-19T18:30:45.685+0530 INFO Login Controller
+2024-07-19T18:30:51.274+0530 INFO Logger involked...
+2024-07-19T18:30:51.275+0530 INFO Login Controller
+2024-07-19T18:30:51.285+0530 INFO Login Authentication Passed...
+2024-07-19T18:30:51.449+0530 INFO GetAllUsers Controller
+2024-07-19T19:17:07.410+0530 INFO Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.DemoApplicationTests], using SpringBootContextLoader
+2024-07-19T19:17:07.440+0530 INFO Could not detect default resource locations for test class [com.example.demo.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2024-07-19T19:17:07.442+0530 INFO Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-07-19T19:17:07.727+0530 INFO Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
+2024-07-19T19:17:07.928+0530 INFO Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2024-07-19T19:17:08.093+0530 INFO Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@565b064f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@26425897, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@73163d48, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@58c34bb3, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@56a4479a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@62163b39, org.springframework.test.context.transaction.TransactionalTestExecutionListener@20a8a64e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@62f4ff3b, org.springframework.test.context.event.EventPublishingTestExecutionListener@1698fc68, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4504d271, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@207b8649, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@65b3a85a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@34997338, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@57eda880, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2b5825fa]
+2024-07-19T19:17:08.671+0530 INFO Starting DemoApplicationTests using Java 1.8.0_144 on PTLDTP019 with PID 18936 (started by badhrinarayanan in D:\spr\demo)
+2024-07-19T19:17:08.676+0530 INFO No active profile set, falling back to default profiles: default
+2024-07-19T19:17:10.116+0530 INFO Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-19T19:17:10.216+0530 INFO Finished Spring Data repository scanning in 77 ms. Found 1 JPA repository interfaces.
+2024-07-19T19:17:10.746+0530 INFO Post-processing PropertySource instances
+2024-07-19T19:17:10.752+0530 INFO Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2024-07-19T19:17:10.755+0530 INFO Converting PropertySource test [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-19T19:17:10.755+0530 INFO Converting PropertySource Inlined Test Properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-19T19:17:10.756+0530 INFO Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2024-07-19T19:17:10.756+0530 INFO Converting PropertySource servletContextInitParams [org.springframework.web.context.support.ServletContextPropertySource] to EncryptableEnumerablePropertySourceWrapper
+2024-07-19T19:17:10.757+0530 INFO Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-19T19:17:10.759+0530 INFO Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2024-07-19T19:17:10.764+0530 INFO Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2024-07-19T19:17:10.765+0530 INFO Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-19T19:17:11.125+0530 INFO Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2024-07-19T19:17:11.211+0530 INFO Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2024-07-19T19:17:11.217+0530 INFO Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2024-07-19T19:17:11.867+0530 INFO HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-19T19:17:11.973+0530 INFO HHH000412: Hibernate ORM core version 5.6.4.Final
+2024-07-19T19:17:12.445+0530 INFO HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-07-19T19:17:13.133+0530 INFO HikariPool-1 - Starting...
+2024-07-19T19:17:14.220+0530 INFO HikariPool-1 - Start completed.
+2024-07-19T19:17:14.307+0530 INFO HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2024-07-19T19:17:17.164+0530 INFO HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-07-19T19:17:17.182+0530 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T19:17:18.506+0530 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-19T19:17:19.645+0530 INFO Started DemoApplicationTests in 11.501 seconds (JVM running for 14.687)
+2024-07-19T19:17:19.936+0530 INFO Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T19:17:19.956+0530 INFO HikariPool-1 - Shutdown initiated...
+2024-07-19T19:17:19.965+0530 INFO HikariPool-1 - Shutdown completed.
+2024-07-19T19:17:42.264+0530 INFO Starting DemoApplication using Java 1.8.0_144 on PTLDTP019 with PID 1180 (D:\spr\demo\target\classes started by badhrinarayanan in D:\spr\demo)
+2024-07-19T19:17:42.275+0530 INFO No active profile set, falling back to default profiles: default
+2024-07-19T19:17:42.321+0530 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-19T19:17:42.323+0530 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-19T19:17:42.914+0530 INFO Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-19T19:17:42.980+0530 INFO Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interfaces.
+2024-07-19T19:17:43.215+0530 INFO Post-processing PropertySource instances
+2024-07-19T19:17:43.218+0530 INFO Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2024-07-19T19:17:43.219+0530 INFO Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2024-07-19T19:17:43.220+0530 INFO Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2024-07-19T19:17:43.220+0530 INFO Skipping PropertySource servletContextInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2024-07-19T19:17:43.220+0530 INFO Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-19T19:17:43.221+0530 INFO Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2024-07-19T19:17:43.221+0530 INFO Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2024-07-19T19:17:43.222+0530 INFO Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-19T19:17:43.222+0530 INFO Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-19T19:17:43.376+0530 INFO Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2024-07-19T19:17:43.387+0530 INFO Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2024-07-19T19:17:43.389+0530 INFO Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2024-07-19T19:17:43.762+0530 INFO Tomcat initialized with port(s): 8080 (http)
+2024-07-19T19:17:43.786+0530 INFO Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-19T19:17:43.788+0530 INFO Starting service [Tomcat]
+2024-07-19T19:17:43.789+0530 INFO Starting Servlet engine: [Apache Tomcat/9.0.56]
+2024-07-19T19:17:43.938+0530 INFO Initializing Spring embedded WebApplicationContext
+2024-07-19T19:17:43.938+0530 INFO Root WebApplicationContext: initialization completed in 1614 ms
+2024-07-19T19:17:44.143+0530 INFO HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-19T19:17:44.204+0530 INFO HHH000412: Hibernate ORM core version 5.6.4.Final
+2024-07-19T19:17:44.389+0530 INFO HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-07-19T19:17:44.530+0530 INFO HikariPool-1 - Starting...
+2024-07-19T19:17:45.342+0530 INFO HikariPool-1 - Start completed.
+2024-07-19T19:17:45.376+0530 INFO HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2024-07-19T19:17:46.352+0530 INFO HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-07-19T19:17:46.376+0530 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T19:17:46.883+0530 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-19T19:17:47.232+0530 INFO LiveReload server is running on port 35729
+2024-07-19T19:17:47.247+0530 INFO Starting ProtocolHandler ["http-nio-8080"]
+2024-07-19T19:17:47.266+0530 WARN Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2024-07-19T19:17:47.269+0530 INFO Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T19:17:47.272+0530 INFO HikariPool-1 - Shutdown initiated...
+2024-07-19T19:17:47.277+0530 INFO HikariPool-1 - Shutdown completed.
+2024-07-19T19:17:47.279+0530 INFO Pausing ProtocolHandler ["http-nio-8080"]
+2024-07-19T19:17:47.280+0530 INFO Stopping service [Tomcat]
+2024-07-19T19:17:47.286+0530 INFO Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-19T19:17:47.287+0530 INFO Destroying ProtocolHandler ["http-nio-8080"]
+2024-07-19T19:17:47.296+0530 INFO 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-07-19T19:17:47.315+0530 ERROR 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-07-19T19:31:46.981+0530 INFO Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.DemoApplicationTests], using SpringBootContextLoader
+2024-07-19T19:31:46.995+0530 INFO Could not detect default resource locations for test class [com.example.demo.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2024-07-19T19:31:46.998+0530 INFO Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-07-19T19:31:47.181+0530 INFO Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
+2024-07-19T19:31:47.324+0530 INFO Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2024-07-19T19:31:47.405+0530 INFO Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5c8eee0f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@565b064f, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@26425897, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@73163d48, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@58c34bb3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@56a4479a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@62163b39, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@20a8a64e, org.springframework.test.context.event.EventPublishingTestExecutionListener@62f4ff3b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1698fc68, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4504d271, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@207b8649, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@65b3a85a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@34997338, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@57eda880]
+2024-07-19T19:31:47.918+0530 INFO Starting DemoApplicationTests using Java 1.8.0_144 on PTLDTP019 with PID 27616 (started by badhrinarayanan in D:\spr\demo)
+2024-07-19T19:31:47.923+0530 INFO No active profile set, falling back to default profiles: default
+2024-07-19T19:31:49.087+0530 INFO Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-19T19:31:49.181+0530 INFO Finished Spring Data repository scanning in 78 ms. Found 1 JPA repository interfaces.
+2024-07-19T19:31:49.602+0530 INFO Post-processing PropertySource instances
+2024-07-19T19:31:49.609+0530 INFO Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2024-07-19T19:31:49.612+0530 INFO Converting PropertySource test [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-19T19:31:49.612+0530 INFO Converting PropertySource Inlined Test Properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-19T19:31:49.613+0530 INFO Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2024-07-19T19:31:49.615+0530 INFO Converting PropertySource servletContextInitParams [org.springframework.web.context.support.ServletContextPropertySource] to EncryptableEnumerablePropertySourceWrapper
+2024-07-19T19:31:49.618+0530 INFO Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-19T19:31:49.619+0530 INFO Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2024-07-19T19:31:49.621+0530 INFO Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2024-07-19T19:31:49.622+0530 INFO Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-19T19:31:50.010+0530 INFO Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2024-07-19T19:31:50.038+0530 INFO Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2024-07-19T19:31:50.042+0530 INFO Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2024-07-19T19:31:50.531+0530 INFO HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-19T19:31:50.625+0530 INFO HHH000412: Hibernate ORM core version 5.6.4.Final
+2024-07-19T19:31:50.856+0530 INFO HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-07-19T19:31:51.347+0530 INFO HikariPool-1 - Starting...
+2024-07-19T19:31:52.341+0530 INFO HikariPool-1 - Start completed.
+2024-07-19T19:31:52.391+0530 INFO HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2024-07-19T19:31:53.688+0530 INFO HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-07-19T19:31:53.728+0530 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T19:31:54.995+0530 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-19T19:31:55.976+0530 INFO Started DemoApplicationTests in 8.495 seconds (JVM running for 10.923)
+2024-07-19T19:31:56.292+0530 INFO Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T19:31:56.295+0530 INFO HikariPool-1 - Shutdown initiated...
+2024-07-19T19:31:56.304+0530 INFO HikariPool-1 - Shutdown completed.

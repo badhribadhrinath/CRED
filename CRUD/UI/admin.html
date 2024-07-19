@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {        
+          /* background-image: url('1440.jpg'); */
+          background-image: url('14.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+        </style>
+    <link rel="icon" type="image/x-icon" href="/Icons/businessman.png">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!-- <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script> -->
+    <!-- java script --> 
+    <script src="adminFunctions.js"></script> 
+    <script src="jquery-3.7.1.js"></script> 
+    <!-- <script src="admin.js"></script>  -->
+    <!-- <script src="tableHTMLExport.js"></script> -->
+  
+ <!-- java script -->
+
+<!-- CSS StyleSheet -->
+ <link rel="stylesheet" href="adminstyle.css">
+ <link rel="stylesheet" href="tablestyle.css">
+ <!-- CSS StyleSheet -->
+
+     <!-- cdn -->
+  <!-- CSS StyleSheet Button icon library --><link rel="stylesheet" href="fonts/font-awesome.css"><!-- CSS StyleSheet Button icon library -->
+    <!-- Export content -->
+        <script src="jspdf.plugin.autotable.min.js"></script>
+        <!-- <script src="jquery.min.js"></script>  -->
+        <script src="jspdf.min.js"></script> 
+     <script src="tableHTMLExport.js"></script>
+<!-- Export content -->
+<!-- cdn -->
+    <title>Login Form</title>
+</head>
+
+<body >
+    <!-- Update Form -->
+     <!-- Modal content -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+                <form id="updateForm"onsubmit="updateForm(event)" align="center">
+                    <h1> Update User Details</h1>
+                    <div class="required"><input type="text" id="updateUsername" name="updateUsername" placeholder="Username"> </div>
+                    <div id="UusernameError" class="error"></div>
+                    <div id="UexistUsernameError" class="error"></div>
+                    <br>
+                    <input type="email" id="updateEmail" name="updateEmail" placeholder="Email">
+                    <div id="UemailError" class="error"></div>
+                    <br>
+                    <select id="updateDepartment" name="updateDepartment">
+                        <option value="">Select Department</option>
+                        <option value="Testing">Tester</option>
+                        <option value="Development">Developer</option>
+                        <option value="HR">HR</option>
+                    </select>
+                    <div id="UdepartmentError" class="error"></div>
+                    <br>
+                    <select id="updateRole" name="updateRole">
+
+                        <option value="">Roles</option>
+                        <option value="admin">Admin</option>
+                        <option value="user">User</option>
+                    </select>
+                    <div id="UroleError" class="error"></div>
+                    <br>
+                    <button type="submit" style="margin-block-end: 1%;">Update</button>
+                </form>
+        </div>
+    </div>
+        <!-- Modal content -->
+  <!-- Update Form -->
+   
+         <!-- Admin Page -->
+    <h1>Admin Page</h1>
+
+    <div class="container" align="center">
+		<h2>Select Number Of Rows</h2>
+				<div class="form-group"> 	<!--Show Numbers Of Rows-->
+			 		<select class  ="form-control" name="state" id="maxRows">
+						 <option value="5000">Show ALL Rows</option>
+                         <option value="3">3</option>
+						 <option value="5">5</option>
+						 <option value="10">10</option>
+						 <!-- <option value="15">15</option>
+						 <option value="20">20</option>
+						 <option value="50">50</option>
+						 <option value="70">70</option>
+						 <option value="100">100</option> -->
+						</select>
+			 		
+			  	</div>
+    </div>                
+    <!-- Table content -->
+
+    <div id="tablepdf">
+        <table id="data-table" align="center">
+            <thead>
+                <tr>
+                    <th>Username</th>
+                    <th>Department</th>
+                    <th>Email id</th>
+                    <th>Role</th>
+                    <th class="edit_delete"></th>
+                    <th class="edit_delete"></th>
+                </tr>
+            </thead>
+            <tbody id="table-body">  
+                <!-- Data will be inserted here Dynamically from Backend -->
+            </tbody>
+        </table>
+        <!--		Start Pagination End -->
+        <!-- Table content -->
+        <br>
+        <br>
+    </div>
+    <div class='pagination-container' >
+        <nav>
+            <ul class="pagination">
+                <li data-page="prev" >
+                    <span>  <span class="sr-only">(current)</span></span>
+                </li>
+                <!--	Here the JS Function Will Add the Rows -->
+                <li data-page="next" id="prev">
+                    <span>  <span class="sr-only">(current)</span></span>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <p  align="center">
+        <button  class="iconbtn" id="csv" ><i class="fa fa-file-excel-o"></i></button>
+        <button  class="iconbtn" id="" onclick="exportPDF('tablepdf')"><i class="fa fa-file-pdf-o"></i></button>
+          
+         </p>
+    <div  align="center" >
+
+        <!-- add member Button -->
+        <button class="iconbtn"  id="" onclick="hide()"><i class='fa fa-user-plus'></i></button>
+        <!-- refresh Button  -->
+         <button  class="iconbtn" id="" onclick="refresh()"><i class="fa fa-refresh"></i></button>
+         <!-- Logout Button -->
+         <button  class="iconbtn" id="" onclick="logoff()"><i class="fa fa-sign-out"></i></button>
+    </div>
+<form id="registrationForm" onsubmit=" handlSubmit(event)" align="center">
+        <h1 >Enter User Details</h1>
+        <div><input class="required"  type="text" id="username" name="username" placeholder= "Username "> </div>
+   
+        <div id="usernameError" class="error"></div>
+        <div id="existUsernameError" class="error"></div>
+          
+        <input  class="required"  type="password" id="password" name="password" placeholder="Password">
+        <div id="passwordError" class="error"></div>
+
+        <input   class="required" type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password">
+        <div id="confirmPasswordError" class="error"></div>
+
+        <input  class="required" type="email" id="emailid" name="emailid" placeholder="Email">
+        <div id="emailError" class="error"></div>
+
+        <select  class="required"  id="department" name="department">
+            <option value="">Select Department</option>
+            <option value="Testing">Tester</option>
+            <option value="Development">Developer</option>
+            <option value="HR">HR</option>
+        </select>
+        <div id="departmentError" class="error"></div>
+
+        <select id="role" name="role">
+            <option value="">Roles</option>
+            <option value="admin">Admin</option>
+            <option value="user">User</option>
+        </select>
+        <div id="roleError" class="error"></div>
+        <br>
+        <input type="submit" value="Submit" >  
+        <button  type="reset" style="font-size:20px;color:black", id="reset" onclick="clearInputField()" <i class="fa fa-repeat"></i> </button>
+    </form>
+
+<script>
+    /*For CSV Export*/
+$('#csv').on('click',function(){
+  //$("#data-table").tableHTMLExport({type:'csv',filename:'sample.csv'});
+  $("#data-table").tableHTMLExport({type:'csv',filename:'Exported_File.csv',ignoreColumns:'.acciones,#primero',ignoreRows: '#ultimo'});
+})
+
+var specialElementHandlers = {
+  // element with id of "bypass" - jQuery style selector
+  '.no-export': function (element, renderer) {
+      // true = "handled elsewhere, bypass text extraction"
+      return true;
+  }
+};
+/*For CSV Export*/
+
+/*For PDF Export*/
+function exportPDF(id) {
+    console.log("Entered Export");
+  var doc = new jsPDF('P', 'pt', 'a4');// p=portrait pt=Unit (inch) q4=Format 
+
+  //Html source 
+  var source = document.getElementById(id);
+  var copySource = source.cloneNode(true);
+  edit_delete = copySource.querySelectorAll(".edit_delete")
+  for(i=0 ; i< edit_delete.length ; i++){
+    edit_delete[i].parentElement.removeChild(edit_delete[i]);
+  }
+  
+  console.log("source : ",copySource);
+
+  var margins = {
+      top: 10,
+      bottom: 10,
+      left: 10,
+      width: 1000
+  };
+
+  doc.fromHTML(
+    copySource, // HTML string or DOM elem ref.
+      margins.left,
+      margins.top, {
+          'width': margins.width,
+          'elementHandlers': specialElementHandlers
+      },
+          //   }, margins.width,
+      function (dispose) {
+          // dispose: object with X, Y of the last line add to the PDF 
+          //          this allow the insertion of new lines after html
+          doc.save('Exported_File.pdf');
+      }, margins);
+}
+/*For PDF Export*/
+  </script>
+  <script src="pagination.js"></script>
+    <script src="admin.js"></script>  
+    </body>
+</html>
